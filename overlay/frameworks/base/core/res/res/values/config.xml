@@ -39,4 +39,6 @@
 
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
+    <bool name="config_is_powerbutton_fps">true</bool>
+
 </resources>
