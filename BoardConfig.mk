@@ -12,11 +12,11 @@ include vendor/realme/RMX2061/BoardConfigVendor.mk
 
 DEVICE_PATH := device/realme/RMX2061
 
+# Build
+TARGET_FORCE_BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := RMX2061
-
-# Build
-TARGET_FORCE_BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
 
 # Properties
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
